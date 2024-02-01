@@ -1,0 +1,51 @@
+﻿@model IEnumerable<HalaSystem.Models.Rezerwacja>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Lista twoich rezerwacji</h1>
+
+<a asp-action="Create" class="btn btn-secondary">
+    <i class="bi bi-plus-square"></i> Dodaj rezerwacje
+</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Od)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Do)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hala.Nazwa)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Od)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Do)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Hala.Nazwa)
+            </td>
+            <td>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn-basic mx-2">
+                        <i class="bi bi-list"></i> Więcej
+                    </a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger mx-2">
+                        <i class="bi bi-trash-fill"></i> Usuń
+                    </a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

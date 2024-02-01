@@ -1,0 +1,48 @@
+﻿@model HalaSystem.Models.Rezerwacja
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Szczegóły</h1>
+
+<div>
+    <h4>Rezerwacja</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.UserId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UserId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Od)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Od)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Do)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Do)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Hala)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Hala.Id)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" class="btn btn-primary" asp-route-id="@Model?.Id">Edytuj</a>
+    <div>
+        <div class="mt-3">
+            <a asp-action="Index" class="btn btn-warning">
+                <i class="bi bi-backspace"></i> Wróć do listy
+            </a>
+        </div>
+    </div>
+</div>

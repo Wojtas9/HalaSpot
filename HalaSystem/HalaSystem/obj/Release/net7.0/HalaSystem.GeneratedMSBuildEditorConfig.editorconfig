@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HalaSystem
+build_property.RootNamespace = HalaSystem
+build_property.ProjectDir = C:\Users\wojno\Desktop\UNI-Semestr VI\Programowanie\HalaSystem\HalaSystem\HalaSystem\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\wojno\Desktop\UNI-Semestr VI\Programowanie\HalaSystem\HalaSystem\HalaSystem
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/wojno/Desktop/UNI-Semestr VI/Programowanie/HalaSystem/HalaSystem/HalaSystem/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wojno/Desktop/UNI-Semestr VI/Programowanie/HalaSystem/HalaSystem/HalaSystem/Views/Hale/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFsZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wojno/Desktop/UNI-Semestr VI/Programowanie/HalaSystem/HalaSystem/HalaSystem/Views/Hale/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFsZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wojno/Desktop/UNI-Semestr VI/Programowanie/HalaSystem/HalaSystem/HalaSystem/Views/Hale/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFsZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wojno/Desktop/UNI-Semestr VI/Programowanie/HalaSystem/HalaSystem/HalaSystem/Views/Hale/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFsZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wojno/Desktop/UNI-Semestr VI/Programowanie/HalaSystem/HalaSystem/HalaSystem/Views/Hale/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wojno/Desktop/UNI-Semestr VI/Programowanie/HalaSystem/HalaSystem/HalaSystem/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wojno/Desktop/UNI-Semestr VI/Programowanie/HalaSystem/HalaSystem/HalaSystem/Views/Rezerwacje/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ3YWNqZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wojno/Desktop/UNI-Semestr VI/Programowanie/HalaSystem/HalaSystem/HalaSystem/Views/Rezerwacje/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ3YWNqZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wojno/Desktop/UNI-Semestr VI/Programowanie/HalaSystem/HalaSystem/HalaSystem/Views/Rezerwacje/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ3YWNqZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wojno/Desktop/UNI-Semestr VI/Programowanie/HalaSystem/HalaSystem/HalaSystem/Views/Rezerwacje/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ3YWNqZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wojno/Desktop/UNI-Semestr VI/Programowanie/HalaSystem/HalaSystem/HalaSystem/Views/Rezerwacje/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ3YWNqZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wojno/Desktop/UNI-Semestr VI/Programowanie/HalaSystem/HalaSystem/HalaSystem/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wojno/Desktop/UNI-Semestr VI/Programowanie/HalaSystem/HalaSystem/HalaSystem/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wojno/Desktop/UNI-Semestr VI/Programowanie/HalaSystem/HalaSystem/HalaSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wojno/Desktop/UNI-Semestr VI/Programowanie/HalaSystem/HalaSystem/HalaSystem/Views/UserRezerwacje/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJlemVyd2FjamVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wojno/Desktop/UNI-Semestr VI/Programowanie/HalaSystem/HalaSystem/HalaSystem/Views/UserRezerwacje/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJlemVyd2FjamVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wojno/Desktop/UNI-Semestr VI/Programowanie/HalaSystem/HalaSystem/HalaSystem/Views/UserRezerwacje/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJlemVyd2FjamVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wojno/Desktop/UNI-Semestr VI/Programowanie/HalaSystem/HalaSystem/HalaSystem/Views/UserRezerwacje/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJlemVyd2FjamVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wojno/Desktop/UNI-Semestr VI/Programowanie/HalaSystem/HalaSystem/HalaSystem/Views/UserRezerwacje/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclJlemVyd2FjamVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wojno/Desktop/UNI-Semestr VI/Programowanie/HalaSystem/HalaSystem/HalaSystem/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wojno/Desktop/UNI-Semestr VI/Programowanie/HalaSystem/HalaSystem/HalaSystem/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wojno/Desktop/UNI-Semestr VI/Programowanie/HalaSystem/HalaSystem/HalaSystem/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-khz12pdh8s

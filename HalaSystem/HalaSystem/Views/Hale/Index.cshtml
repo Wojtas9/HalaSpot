@@ -1,0 +1,55 @@
+﻿@model IEnumerable<HalaSystem.Models.Hala>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Hala</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-secondary">
+    <i class="bi bi-plus-square"></i> Stwórz Nową
+    </a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nazwa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Adres)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IloscMiejsc)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nazwa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Adres)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IloscMiejsc)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-success mx-2">
+                        <i class="bi bi-pencil-square"></i> Edytuj
+                        </a>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn-basic mx-2">
+                        <i class="bi bi-list"></i> Więcej
+                        </a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger mx-2">
+                        <i class="bi bi-trash-fill"></i> Usuń 
+                        </a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

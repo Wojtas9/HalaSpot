@@ -1,0 +1,76 @@
+﻿@model IEnumerable<HalaSystem.Models.Rezerwacja>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="w-100 card border-0 p-4">
+    <div class="card-header bg-success bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Rezerwacje</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body border p-4">
+        <div class="row pb-3">
+            <div class="col-6 offset-6 text-end">
+                <p>
+                    <a asp-action="Create" asp-action="" class="btn btn-secondary">Twórz nową</a>
+                </p>
+            </div>
+        </div>
+
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.UserId)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Od)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Do)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Hala)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.UserId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Od)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Do)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Hala.Id)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-success mx-2">
+                                <i class="bi bi-pencil-square"></i> Edytuj
+                            </a>
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn-basic mx-2">
+                                <i class="bi bi-list"></i> Więcej
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger mx-2">
+                                <i class="bi bi-trash-fill"></i> Usuń
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

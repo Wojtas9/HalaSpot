@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\HalaSystem.props" />
+</Project>
